@@ -2,13 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { products } from '../products';
 import { CartService } from '../cart.service';
-
-interface Product {
-  id: number;
-  name: string;
-  price: number;
-  description: string;
-}
+import { Product } from '../product';
 
 @Component({
   selector: 'app-product-details',
